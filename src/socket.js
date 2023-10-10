@@ -2,7 +2,7 @@ const soctetIo=require('socket.io')
 
 const io=soctetIo(5000,{
     cors:{
-        origin:"http://localhost:3000"
+        origin:"https://chatappss.netlify.app"
     }
 })
 
